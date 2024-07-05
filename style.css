@@ -10,14 +10,14 @@ html {
 
 body {
 	margin: 0;
-	background: #000!important;
+	background: red;
 	overflow: hidden;
 }
 
 #gameContainer {
 	width: 100vw;
 	height: 100vh;
-	background: #000!important;
+	background:blue;
 }
 
 canvas {
@@ -33,7 +33,7 @@ canvas + * {
 
 .progress {
 	margin: 1.5em;
-	border: 1px solid white;
+	border: 1px solid black;
 	width: 35vw;
 	display: none;
 	position: fixed;
